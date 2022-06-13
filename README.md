@@ -1,0 +1,12 @@
+## 좋은 객체 지향 설계의 5가지 원칙(SOLID)
+- SRP: 단일 책임 원칙(single responsibility principle)
+  - 한 클래스는 하나의 책임만 가져야 한다.
+  - 중요한 기준은 변경이다. 변경이 있을 때 파급 효과가 적으면 단일 책임 원칙 잘 따른 것이다.
+- OCP: 개방-폐쇄 원칙(open/closed principle)
+  - 소프트웨어 요소는 확장에는 열려 있으나 변경에는 닫혀 있어야 한다.
+- LSP: 리스코프 치환 원칙(liskov substitution principle)
+  - 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다.
+- ISP: 인터페이스 분리 원칙(interface segregation principle)
+  - 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다.
+- DIP: 의존관계 역전 원칙(dependency inversion principle)
+  - 구현 클래스에 의존하지 말고, 인터페이스에 의존해야 한다.
